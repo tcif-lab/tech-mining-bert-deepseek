@@ -13,7 +13,7 @@ Affiliations:
 Humanoid robotics is rapidly advancing, driven by the convergence of multimodal AI, advanced mechatronics, and human-robot interaction technologies. This project proposes a hybrid technology mining framework to compare and analyze innovation trajectories across **closed-source (patents)** and **open-source (GitHub)** ecosystems.
 
 We employ:
-- **BERTopic** for topic extraction from patent abstracts and GitHub README files.
+- **BERTopic** for topic extraction from patent abstracts and GitHub+Huging Face README files.
 - **DeepSeek-V3** for explainable reclassification into technological functions.
 
 The study reveals distinct patterns in innovation models, demonstrating how proprietary and collaborative ecosystems drive innovation differently in the humanoid robotics domain.
@@ -25,7 +25,7 @@ The study reveals distinct patterns in innovation models, demonstrating how prop
 The repository includes the following core notebooks:
 
 ### `1. EDA.ipynb`
-- Initial exploratory data analysis (EDA) on the retrieved patent and GitHub datasets.
+- Initial exploratory data analysis (EDA) on the retrieved patent and GitHub+Hugging Face datasets.
 - Includes preprocessing, filtering based on quality metrics (e.g., stars > 10 on GitHub), and statistical visualization of trends over time.
 - Key visualizations: publication counts by year, geospatial trends, citation/star distribution.
 
