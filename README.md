@@ -55,7 +55,7 @@ To reproduce the results:
 ## 📌 Data Sources
 
 - **Patents**: Retrieved via IncoPat covering 2010–2024 (5,612 entries).
-- **Open-source**: GitHub repositories matching keywords “humanoid robot” (2,429 entries initially, filtered to 148 high-quality repos).
+- **Open-source**: GitHub+Hugging Face repositories matching keywords “humanoid robot” (2,429 + 1785) entries initially, filtered to 148 high-quality repos).
 - **Hugging Face**: Supplementary LLM metadata.
 
 ---
@@ -78,7 +78,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED...
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 
 ---
 
