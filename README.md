@@ -10,7 +10,7 @@ Affiliations:
 
 ## 🧠 Overview
 
-Humanoid robotics is rapidly advancing, driven by the convergence of multimodal AI, advanced mechatronics, and human-robot interaction technologies. This project proposes a hybrid technology mining framework to compare and analyze innovation trajectories across **closed-source (patents)** and **open-source (GitHub)** ecosystems.
+Humanoid robotics is rapidly advancing, driven by the convergence of multimodal AI, advanced mechatronics, and human-robot interaction technologies. This project proposes a hybrid technology mining framework to compare and analyze innovation trajectories across **closed-source (patents)** and **open-source (GitHub+Hugging Face)** ecosystems.
 
 We employ:
 - **BERTopic** for topic extraction from patent abstracts and GitHub+Huging Face README files.
@@ -22,15 +22,10 @@ The study reveals distinct patterns in innovation models, demonstrating how prop
 
 ## 📁 Code Structure
 
-The repository includes the following core notebooks:
+The repository includes the the implementation in its core notebook:
 
-### `1. EDA.ipynb`
-- Initial exploratory data analysis (EDA) on the retrieved patent and GitHub+Hugging Face datasets.
-- Includes preprocessing, filtering based on quality metrics (e.g., stars > 10 on GitHub), and statistical visualization of trends over time.
-- Key visualizations: publication counts by year, geospatial trends, citation/star distribution.
-
-### `2. BERT+DeepSeekV3.ipynb`
-- Implements a BERTopic pipeline to extract semantically coherent clusters of innovation topics from patent and GitHub corpora.
+### `BERT+DeepSeekV3.ipynb`
+- Implements a BERTopic pipeline to extract semantically coherent clusters of innovation topics from patent and GitHub+Hugging Face corpora.
 - Uses DeepSeek-V3 for reclassification of extracted topics into four major technical categories: **Actuators, Brains, Sensors, Batteries**.
 - Includes explainable AI integration and results interpretation using both intrinsic and extrinsic validation.
 
@@ -53,8 +48,7 @@ To reproduce the results:
 1. Clone the repository
 2. Ensure the required dependencies from `requirements.txt` are installed
 3. Run the notebooks in order:
-   - `1. EDA.ipynb`
-   - `2. BERT+DeepSeekV3.ipynb`
+   - `1. BERT+DeepSeekV3.ipynb`
 
 ---
 
