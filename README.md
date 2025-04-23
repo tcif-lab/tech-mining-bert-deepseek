@@ -88,7 +88,7 @@ If you use this work, please cite:
 
 ```
 @article{govindarajan2025techmining,
-  title={Technology Mining the Evolution of Humanoid Robotics},
+  title={Technology Mining the Evolution of Humanoid Robotics: A BERT and DeepSeek based Framework for Mapping Innovation Trajectories across Global Patent Grants and Open-Source Repositories},
   author={Govindarajan, Usharani Hareesh and Hong, Yuecheng and Mejia, Cristian and Narang, Gagan},
   journal={Preprint under review},
   year={2025}
